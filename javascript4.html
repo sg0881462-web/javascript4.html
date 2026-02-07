@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> aryas javascript </title>
+</head>
+
+<body>
+
+<h1 id="result1"></h1>
+<h1 id="result2"></h1>
+<h1 id="result3"></h1>
+<h1 id="result4"></h1>
+<h1 id="result5"></h1>
+<h1 id="result6"></h1>
+<h1 id="result7"></h1>
+
+<script>
+
+var fruits = ["apple", "banana", "mango", "orange", "grapes", "pineapple", "watermelon"];
+
+document.getElementById("result1").innerHTML = fruits[0];
+document.getElementById("result2").innerHTML = fruits.length;
+
+
+fruits.push("guvva");
+    document.getElementById("result3").innerHTML = fruits
+
+fruits.pop();
+    document.getElementById("result4").innerHTML = fruits
+
+    fruits.shift();
+    document.getElementById("result5").innerHTML = fruits;
+
+     fruits.unshift("kiwi");
+    document.getElementById("result6").innerHTML = fruits;
+   
+fruits.splice(2, 0, "lemon", "peach");
+    document.getElementById("result2").innerHTML = fruits
+
+</script>
+</body>
+
+</html>  
