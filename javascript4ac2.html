@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head> call stack </head>
+
+<body>
+
+<script>
+
+function first() {
+    console.log("hey iam first function");
+    second();
+}
+
+function second() {
+    console.log("hey iam second function");
+    
+}
+
+function third() {
+    console.log("hey iam third function");
+    first();
+}
+
+third();
+
+</script>
+
+
+</body>
+
+</html>
